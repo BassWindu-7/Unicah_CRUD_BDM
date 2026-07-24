@@ -40,10 +40,10 @@ class PurchaseOrder extends Model
 
     /**
      * Relación con los detalles de la orden de compra.
-     
+     */
     public function details()
     {
         return $this->hasMany(PurchaseOrderDetail::class);
     }
-        */
+        
 }
