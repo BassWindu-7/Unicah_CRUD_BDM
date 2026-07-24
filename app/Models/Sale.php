@@ -40,9 +40,9 @@ class Sale extends Model
 
     /**
      * Relación con los detalles de la venta.
-     
+     */
     public function details()
     {
         return $this->hasMany(SaleDetail::class);
-    }*/
+    }
 }
